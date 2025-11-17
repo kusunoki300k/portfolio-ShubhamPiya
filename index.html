@@ -1,0 +1,82 @@
+<html>
+<head>
+	<style>
+		.title{
+			display:inline;
+			padding-left: 30px;
+		}
+
+		.top{
+			height:60px;
+			background-color: turquoise;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.pages{
+			list-style: none;
+			padding-right: 30px;
+		}
+
+		.pages_elements{
+			display: inline-block;
+			margin: 10px;
+		}
+
+		.card{
+  			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  			width: 300px;
+		}
+
+		.container {
+  			padding: 2px 16px;
+		}
+	</style>
+	<header>
+		<div class = "top">
+			<h1 class = "title">Shubham Piya</h1>
+			<nav>
+				<ul class = "pages">
+					<li class = "pages_elements"><a href = "#about">About Me</a></li>
+					<li class = "pages_elements"><a href = "#projects">My Projects</a></li>
+					<li class = "pages_elements"><a href = "#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+</head>
+<body>
+	<section id="about">
+		<h2>About Me</h2>
+		<p>Hello, my name is Shubham Piya. I am a computer science student.</p>
+	</section>
+	<section id="projects">
+		<h2>My Projects:</h2>
+			<div class="card">
+  				<img src="https://cdn.dribbble.com/userupload/37779508/file/original-271b52a482c3743e7acb5e421bff6b21.jpg?resize=400x0" style="width:100%">
+  					<div class="container">
+    					<h4><b>Weather App</b></h4>
+    					<p>Incorporates weather API</p>
+  					</div>
+			</div>
+	</section>
+	<section id="contact">
+		<h2>Contact Me:</h2>
+		<form>
+			<label>Name:</label>
+			<input type="text" placeholder="Enter your name">
+			<br>
+			<label>Email:</label>
+			<input type="Email" placeholder="Enter your email">
+			<br>
+			<textarea name="message" rows="6">Message:</textarea>
+			<br>
+			<button type="Submit">Submit</button>
+		</form>
+	</section>
+</body>
+<footer>
+	@copyright; All rights reserved.
+</footer>
+</html>
